@@ -63,6 +63,7 @@ function App() {
       password = password + characterList.charAt(characterIndex)
     }
     return password;
+    console.log(password);
   };
   const generateRandomIndex=(limit)=>{
     return Math.round(Math.random() * limit);
