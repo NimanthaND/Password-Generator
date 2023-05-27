@@ -1,0 +1,131 @@
+.container {
+  display: flex;
+  /* width: 100%;
+  height: 250px; */
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 99.5vh;
+  font-family: Arial, sans-serif;
+  border: 2px solid #000;
+  /* border-radius: 8px; */
+  background: linear-gradient(to right, #34495e, #2c3e50);
+}
+
+.form-container {
+  width: 20%;
+  padding: 2rem;
+  background: linear-gradient(to right, #2c3e50, #34495e);
+  border-radius: 8px;
+}
+
+h2 {
+  margin-bottom: 2rem;
+  color: #fff;
+}
+
+.input-group {
+  margin-bottom: 1rem;
+}
+
+.input-group label {
+  margin-right: 0.5rem;
+  color: #fff;
+}
+
+.input-group input {
+  border-radius: 8px;
+  background-color: #fff;
+  color: #333;
+  border: 1px solid #bbb;
+}
+
+.checkbox-group {
+  margin-bottom: 1rem;
+  padding: 10px;
+}
+
+.checkbox-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #fff;
+}
+
+.generate-button {
+  padding: 0.5rem 1rem;
+  background-color: #ff9800; /* Change this color to your preference */
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 0 auto;
+}
+
+.generate-button:hover {
+  background-color: #f57c00; /* Change this color to your preference */
+}
+
+
+.result {
+  margin-top: 2rem;
+}
+
+.result h3 {
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+.copy-button {
+  margin-top: 0.5rem;
+  padding: 0.5rem 1rem;
+  background-color: #ff9800; /* Change this to the desired color, same as the Generate button */
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.copy-button:hover {
+  background-color: #f57c00; /* Change this to the desired hover color, same as the Generate button */
+}
+
+.highlighted{
+  border-radius: 1px;
+  border-color:#ff9800;
+}
+
+.pass-generate-box{
+  background-color: white;
+  border-radius: 4px;
+  border:4px;
+  border-color:#ff9800;
+  height: 20px;
+  width: 200px;
+  margin-left: 48px;
+  }
+
+  .tabs{
+    margin-left: 14%;
+  }
+
+  .tabs2{
+    margin-left: 37.5%;
+  }
+
+  .tabs3{
+    margin-left: 39%;
+  }
+
+  .button-group {
+    text-align: center;
+    margin-top: 10px; /* Add margin if needed */
+  }
+  
+  .generate-button,
+  .copy-button {
+    margin-right: 10px; /* Add spacing between buttons if needed */
+  }
+  
