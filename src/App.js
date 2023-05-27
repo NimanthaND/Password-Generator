@@ -162,7 +162,6 @@ const App = () => {
         {generatedPassword && (
           <div className="result">
             <h3>Generated Password:</h3>
-           {/* <div style={{backgroundColor:"gray"}}> */}
            <div className="pass-generate-box">
             <p className="highlighted">{generatedPassword}</p>
            </div>
